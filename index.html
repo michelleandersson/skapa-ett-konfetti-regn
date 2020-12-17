@@ -15,10 +15,23 @@
         <h1>Need some Cheering up?</h1>
       </div>
       <div class="flex-row flex-center">
-        <button id="confettiButton">Press the Button!</button>
+        <button onclick="messageShow()" id="confettiButton">Press the Button!</button>
+      </div>
+      <div >
+        <p id="message" style="display: none;">You are <span>AWESOME!!!</span></p>
       </div>
     </div>
   </div>
+  <script>
+    function messageShow() {
+      let x = document.getElementById("message"); 
+      if (x.style.display == "none") {
+        x.style.display = "block"; 
+      } else {
+        x.style.display = "none"; 
+      }
+    }
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <script type="module" src="javascripts/confetti-creator.js"></script>

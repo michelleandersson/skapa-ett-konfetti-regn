@@ -49,3 +49,13 @@ button:active {
   justify-content: center;
   align-items: center;
 }
+
+#message {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+span {
+  color:#00be65;
+}

@@ -2,6 +2,17 @@
 // och lite sorglig konfettipartikel. Din uppgift blir att
 // fylla konfettianimationen med färger och liv!
 
+
+// function turnOff(){  
+//   document.getElementById('message').style.display = 'none';              
+// }
+// function show(btn){                
+//   document.getElementById('message').style.display = 'block';
+// btn.onclick = function(){};
+// }
+
+
+
 // Funktionen chooseParticleColor styr färgen på varje enskild
 // partikel. Den ska returnera en text-sträng som innehåller en
 // CSS-färg. Returnerar den samma färg varje gång så kommer alla
