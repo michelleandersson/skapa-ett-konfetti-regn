@@ -32,7 +32,7 @@ const bang = (addConfettiParticles) => {
   // chooseParticleColor. Ändra på dessa värden och se vad som händer!
   addConfettiParticles({
     groupName: 'lonely sad confetti',  // Valfritt namn på gruppen
-    particleAmount: 1800,  // Antal konfettipartiklar
+    particleAmount: 2000,  // Antal konfettipartiklar
     xPosition: 100,      // Position i procent av skärmens bredd, 0 är längst till vänster och 100 längst till höger
     yPosition: 100,      // Position i procent av skärmens höjd, 0 är längst ner och 100 högst upp
     xVelocity: 2,       // Hastighet i sidled, positiva värden åker åt höger och negativa åt vänster
